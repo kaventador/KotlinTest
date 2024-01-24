@@ -4,7 +4,7 @@ class hi<T , N>(var a:T,var b :N){
     fun <W,Z>x(){
         println("a = $a , b = $b")
     }
-    fun <Q>y(vararg item:Q){
+    fun <Q>y(vararg item: Int){
         item.forEach { Q -> println(Q) }
     }
 }
